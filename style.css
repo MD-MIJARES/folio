@@ -1091,7 +1091,7 @@ animation: rotate1 1s linear;
         object-fit:cover;
         transform-origin:center;
         transform-style:preserve-3d;
-        transform:rotateY(calc(var(--i) * 90deg)) translateZ(100px);
+        transform:rotateY(calc(var(--i) * 90deg)) translateZ(80px);
     }
       
     .skills-picture{
@@ -1109,6 +1109,11 @@ animation: rotate1 1s linear;
         height:150px;
         transform-style:preserve-3d;
         animation:ikot 10s linear infinite; 
+    }
+    .skills-say-box{
+        margin: 10px 35px;
+        justify-content: center;
+        width: 400px;  
     }
 }
 
