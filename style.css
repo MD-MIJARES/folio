@@ -904,7 +904,7 @@ animation: rotate1 1s linear;
     }
     @keyframes bubble{
         0%{
-          transform: translateY(-1200px) scale(1.5);
+          transform: translateY(-1250px) scale(1.5);
         }
         100%{
           transform: translateY(25px) scale(1.5);
