@@ -1076,13 +1076,39 @@ animation: rotate1 1s linear;
 
 
 
-@media (max-width: 760px){
+@media (max-width: 800px){
     .skillbox{
         background-image: url(images/cover5.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         height: auto;
+    }
+    .box-picture-2nd{
+        position:absolute;
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        transform-origin:center;
+        transform-style:preserve-3d;
+        transform:rotateY(calc(var(--i) * 90deg)) translateZ(100px);
+    }
+      
+    .skills-picture{
+        box-shadow:0 0 12px #8000ff;
+        border-radius: 1px;
+        position:absolute;
+        width:150px;
+        height:150px;   
+    }
+    .box-picture-1st{
+        cursor: grab;
+        margin: auto auto;
+        position:relative;
+        width:150px;
+        height:150px;
+        transform-style:preserve-3d;
+        animation:ikot 10s linear infinite; 
     }
 }
 
