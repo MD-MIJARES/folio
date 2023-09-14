@@ -281,7 +281,7 @@ a{
 }
 .wrapper {
     height: 100vh;
-    width: 100%;
+    width: auto;
     position: absolute;
     z-index: 9998;
     display: none;
